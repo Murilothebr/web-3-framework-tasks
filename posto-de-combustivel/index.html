@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparador de Combustíveis</title>
+</head>
+<body>
+  <h1>Comparador de Combustíveis</h1>
+  <form id="formulario">
+    <label for="nomePosto">Nome do Posto:</label>
+    <input type="text" id="nomePosto" required><br>
+    <label for="precoEtanol">Preço do Etanol (R$):</label>
+    <input type="number" id="precoEtanol" step="0.01" required><br>
+    <label for="precoGasolina">Preço da Gasolina (R$):</label>
+    <input type="number" id="precoGasolina" step="0.01" required><br>
+    <button type="button" id="calcularBtn">Calcular</button>
+  </form>
+  <div id="resultado"></div>
+  <script src="script.js"></script>
+</body>
+</html>
